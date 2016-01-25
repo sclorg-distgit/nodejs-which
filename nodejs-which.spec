@@ -5,8 +5,8 @@
 
 
 Name:       %{?scl_prefix}nodejs-which
-Version:    1.0.5
-Release:    7%{?dist}
+Version:    1.2.0
+Release:    1%{?dist}
 Summary:    A JavaScript implementation of the 'which' command
 License:    MIT
 Group:      System Environment/Libraries
@@ -47,6 +47,9 @@ rm -rf %{buildroot}
 %doc README.md LICENSE
 
 %changelog
+* Mon Nov 30 2015 Tomas Hrcka <thrcka@redhat.com> - 1.0.5-1
+- New upsteram release
+
 * Fri May  3 2013 Stanislav Ochotnicky <sochotnicky@redhat.com> - 1.0.5-7
 - Fix broken symlink in bindir
 
